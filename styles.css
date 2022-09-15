@@ -1,0 +1,111 @@
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: Courier New, sans-serif, Brush Script MT, Garamond, Geneva;
+}
+
+.card {
+    width: 400px;   
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #E1EFE6;
+    color: #22133F;
+    border: 2px solid #22133F;
+    text-shadow: 0px 0px 6px ; 
+    height: 240px;
+    
+    /*
+    Challenge:
+    Find a color palette you like on Coolors.co
+    and use it in your business card.
+     */
+}
+
+.name{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.top, .bottom , section {
+ width: 170px;
+ border:2px solid #22133F;
+ box-shadow: 0px 0px 6px;
+ padding: auto;
+ margin: auto auto;
+}
+.contactinfo{
+    margin-bottom: 5px;
+    text-align: left;
+    line-height: 1px;
+}
+
+.colorchange {
+  background: linear-gradient(to right, #000 20%, #bada55 30%, #bada44 70%, #000 80%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 300% auto;
+  animation: textShine 7s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+  to {
+    background-position: 200%;
+  }
+}
+
+a:hover {
+  background-color: blueviolet;
+}
+
+}
+.border-blue {
+    border: 1px dotted blue;
+}
+
+
+ 
+#cf {
+  position:relative;
+  height: 281px;
+  width:450px;
+  margin:0 auto;
+  left: 0;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+/*
+Stretch goals:
+Find other ways you can personalize 
+the design of your business card, e.g.:
+- change the border(s)
+- add border radius
+- shuffle the layout
+- shadows        🤯
+- hover effects  🤯🤯
+- animations     🤯🤯🤯
+*/
+
+/*
+Final challenge:
+Download the code to your local computer and place it
+in a folder called "business-card"
+*/
